@@ -6,19 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>增删改查 | Hexo</title>
+  <title>查数据 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="查询所有人的所有信息SELECT id,stuno,name,nation from stuinfo;SELECT * from stuinfo;查询年龄大于1000的同学姓名和年龄；SELECT name 姓名,age 年龄,nation 民族 from stuinfo where age &amp;gt; 1000;查询年龄大于1000的同学姓名，并且把重复信息合并SELECT DISTINCT na">
+  <meta name="description" content="select * from stu(学生表) ;SELECT name,age FROM stu(学生表);SELECT name from stu(学生表) ;SELECT name ,addres FROM stu(学生表);SELECT * FROM stu_score(成绩表) ;SELECT SUBJECT,score FROM stu_score(成绩表); ****333333333">
 <meta property="og:type" content="article">
-<meta property="og:title" content="增删改查">
-<meta property="og:url" content="http://yoursite.com/2019/10/17/增删改查/index.html">
+<meta property="og:title" content="查数据">
+<meta property="og:url" content="http://yoursite.com/2019/10/17/查数据/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="查询所有人的所有信息SELECT id,stuno,name,nation from stuinfo;SELECT * from stuinfo;查询年龄大于1000的同学姓名和年龄；SELECT name 姓名,age 年龄,nation 民族 from stuinfo where age &amp;gt; 1000;查询年龄大于1000的同学姓名，并且把重复信息合并SELECT DISTINCT na">
+<meta property="og:description" content="select * from stu(学生表) ;SELECT name,age FROM stu(学生表);SELECT name from stu(学生表) ;SELECT name ,addres FROM stu(学生表);SELECT * FROM stu_score(成绩表) ;SELECT SUBJECT,score FROM stu_score(成绩表); ****333333333">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-10-17T14:00:50.744Z">
+<meta property="og:updated_time" content="2019-10-17T14:11:00.975Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="增删改查">
-<meta name="twitter:description" content="查询所有人的所有信息SELECT id,stuno,name,nation from stuinfo;SELECT * from stuinfo;查询年龄大于1000的同学姓名和年龄；SELECT name 姓名,age 年龄,nation 民族 from stuinfo where age &amp;gt; 1000;查询年龄大于1000的同学姓名，并且把重复信息合并SELECT DISTINCT na">
+<meta name="twitter:title" content="查数据">
+<meta name="twitter:description" content="select * from stu(学生表) ;SELECT name,age FROM stu(学生表);SELECT name from stu(学生表) ;SELECT name ,addres FROM stu(学生表);SELECT * FROM stu_score(成绩表) ;SELECT SUBJECT,score FROM stu_score(成绩表); ****333333333">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -154,27 +154,33 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-增删改查" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-查数据" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      增删改查
+      查数据
     </h1>
   
 
         
-        <a href="/2019/10/17/增删改查/" class="archive-article-date">
-  	<time datetime="2019-10-17T14:00:25.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-10-17</time>
+        <a href="/2019/10/17/查数据/" class="archive-article-date">
+  	<time datetime="2019-10-17T14:10:19.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-10-17</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>查询所有人的所有信息<br>SELECT id,stuno,name,nation from stuinfo;<br>SELECT * from stuinfo;<br>查询年龄大于1000的同学姓名和年龄；<br>SELECT name 姓名,age 年龄,nation 民族 from stuinfo where age &gt; 1000;<br>查询年龄大于1000的同学姓名，并且把重复信息合并<br>SELECT DISTINCT name 姓名 from stuinfo where age &gt; 1000;<br>查询所有人的学号和姓名,只显示第50页的数据，每页5条<br>SELECT stuno,name from stuinfo LIMIT 0,5;<br>查询所有学员信息，按照年龄升序排序<br>SELECT * from stuinfo order by age asc;<br>查询名字是两个字，按照年龄降序排列<br>SELECT * from stuinfo WHERE name LIKE ‘__’ order by age DESC;<br>按照民族进行排序<br>SELECT * from stuinfo order by nation DESC;</p>
+        <p>select * from <code>stu(学生表)</code> ;<br>SELECT name,age FROM <code>stu(学生表)</code>;<br>SELECT name from <code>stu(学生表)</code> ;<br>SELECT name ,addres FROM <code>stu(学生表)</code>;<br>SELECT * FROM <code>stu_score(成绩表)</code> ;<br>SELECT SUBJECT,score FROM <code>stu_score(成绩表)</code>;</p>
+<p><strong><strong><strong>****</strong></strong></strong>3333333333333333<strong><strong><strong><strong><strong><strong>****</strong></strong></strong></strong></strong></strong></p>
+<p>SELECT stu_id,score FROM <code>stu_score(成绩表)</code>WHERE stu_id&gt;3;<br>SELECT * FROM <code>stu(学生表)</code>WHERE age&gt;23;<br>SELECT name ,addres,age,id FROM <code>stu(学生表)</code>WHERE id&gt;5;<br>SELECT * FROM <code>stu(学生表)</code> WHERE addres!=’上海’;</p>
+<p><strong><strong><strong><strong><strong>**</strong></strong></strong></strong></strong>44444444444444<strong><strong><strong><strong><strong><strong>**</strong></strong></strong></strong></strong></strong></p>
+<p>SELECT * FROM <code>stu(学生表)</code>where age in(22,24);<br>SELECT * FROM <code>stu(学生表)</code> WHERE addres!=’上海’and addres!=’深圳’;<br>SELECT * FROM <code>stu(学生表)</code>where addres not in(‘北京’,’上海’,’深圳’);<br>SELECT * FROM <code>stu(学生表)</code>WHERE age BETWEEN 22 and 26;<br>SELECT * FROM <code>stu(学生表)</code>WHERE birthday BETWEEN ‘1993-01-01’ and ‘1993-12-30’;<br>SELECT * FROM <code>stu(学生表)</code> WHERE birthday is null;<br>SELECT * FROM <code>stu(学生表)</code> WHERE birthday is not null;<br>SELECT * FROM <code>stu_score(成绩表)</code> WHERE score BETWEEN 60 and 80;<br>SELECT * FROM <code>stu_score(成绩表)</code> where score in(70,80,90);<br>SELECT * from <code>stu(学生表)</code> WHERE addres=’北京’and age&lt;22;</p>
+<p><strong><strong><strong><strong><strong>**</strong></strong></strong></strong></strong>555555555555<strong><strong><strong><strong><strong><strong>****</strong></strong></strong></strong></strong></strong></p>
+<p>SELECT * FROM <code>stu(学生表)</code>  ORDER BY age desc;<br>SELECT * FROM <code>stu_score(成绩表)</code> ORDER BY stu_id asc, score desc;<br>SELECT * FROM <code>stu(学生表)</code> LIMIT 3,4;<br>SELECT * FROM <code>stu(学生表)</code> LIMIT 3,15;<br>SELECT * FROM <code>stu(学生表)</code> LIMIT 4,6;</p>
 
       
 
@@ -254,7 +260,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/10/17/增删改查/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/10/17/查数据/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -268,18 +274,9 @@
   
 <nav id="article-nav">
   
-    <a href="/2019/10/17/查数据/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          查数据
-        
-      </div>
-    </a>
   
-  
-    <a href="/2019/10/17/增删改/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">增删改</div>
+    <a href="/2019/10/17/增删改查/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">增删改查</div>
       <i class="icon-circle-right"></i>
     </a>
   
