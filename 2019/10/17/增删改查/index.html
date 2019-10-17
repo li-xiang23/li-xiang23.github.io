@@ -6,19 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>增删改 | Hexo</title>
+  <title>增删改查 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="msql添加数据INSERT [INTO] TABLE_NAME [（COLUMN，COLUMN1，COLUMN2 … ..）] VALUES（值1，值，VALUE3 …..）;msql删除语句从TABLE_NAME中删除[搜索条件]；mysql修改语句UPDATE SET TABLE_NAME COLUMN_NAME = VALUE，COLUMN_NAME = VALUE [WHERE &amp;lt;">
+  <meta name="description" content="查询所有人的所有信息SELECT id,stuno,name,nation from stuinfo;SELECT * from stuinfo;查询年龄大于1000的同学姓名和年龄；SELECT name 姓名,age 年龄,nation 民族 from stuinfo where age &amp;gt; 1000;查询年龄大于1000的同学姓名，并且把重复信息合并SELECT DISTINCT na">
 <meta property="og:type" content="article">
-<meta property="og:title" content="增删改">
-<meta property="og:url" content="http://yoursite.com/2019/10/17/增删改/index.html">
+<meta property="og:title" content="增删改查">
+<meta property="og:url" content="http://yoursite.com/2019/10/17/增删改查/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="msql添加数据INSERT [INTO] TABLE_NAME [（COLUMN，COLUMN1，COLUMN2 … ..）] VALUES（值1，值，VALUE3 …..）;msql删除语句从TABLE_NAME中删除[搜索条件]；mysql修改语句UPDATE SET TABLE_NAME COLUMN_NAME = VALUE，COLUMN_NAME = VALUE [WHERE &amp;lt;">
+<meta property="og:description" content="查询所有人的所有信息SELECT id,stuno,name,nation from stuinfo;SELECT * from stuinfo;查询年龄大于1000的同学姓名和年龄；SELECT name 姓名,age 年龄,nation 民族 from stuinfo where age &amp;gt; 1000;查询年龄大于1000的同学姓名，并且把重复信息合并SELECT DISTINCT na">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-10-17T13:56:47.822Z">
+<meta property="og:updated_time" content="2019-10-17T14:00:50.744Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="增删改">
-<meta name="twitter:description" content="msql添加数据INSERT [INTO] TABLE_NAME [（COLUMN，COLUMN1，COLUMN2 … ..）] VALUES（值1，值，VALUE3 …..）;msql删除语句从TABLE_NAME中删除[搜索条件]；mysql修改语句UPDATE SET TABLE_NAME COLUMN_NAME = VALUE，COLUMN_NAME = VALUE [WHERE &amp;lt;">
+<meta name="twitter:title" content="增删改查">
+<meta name="twitter:description" content="查询所有人的所有信息SELECT id,stuno,name,nation from stuinfo;SELECT * from stuinfo;查询年龄大于1000的同学姓名和年龄；SELECT name 姓名,age 年龄,nation 民族 from stuinfo where age &amp;gt; 1000;查询年龄大于1000的同学姓名，并且把重复信息合并SELECT DISTINCT na">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -154,27 +154,27 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-增删改" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-增删改查" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      增删改
+      增删改查
     </h1>
   
 
         
-        <a href="/2019/10/17/增删改/" class="archive-article-date">
-  	<time datetime="2019-10-17T13:54:33.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-10-17</time>
+        <a href="/2019/10/17/增删改查/" class="archive-article-date">
+  	<time datetime="2019-10-17T14:00:25.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-10-17</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>msql添加数据<br>INSERT [INTO] TABLE_NAME [（COLUMN，COLUMN1，COLUMN2 … ..）] VALUES（值1，值，VALUE3 …..）;<br>msql删除语句<br>从TABLE_NAME中删除[搜索条件]；<br>mysql修改语句<br>UPDATE SET TABLE_NAME COLUMN_NAME = VALUE，COLUMN_NAME = VALUE [WHERE &lt;表达式&gt;];<br>TABLE_NAME :表名<br>COLUMN字段名<br>VALUE:需要添加的值和COLUMN对应<br>INTO ：语法关键字 可以省略<br>search-condition: 筛选条件<br>SET ：是对指定字段进行修改</p>
+        <p>查询所有人的所有信息<br>SELECT id,stuno,name,nation from stuinfo;<br>SELECT * from stuinfo;<br>查询年龄大于1000的同学姓名和年龄；<br>SELECT name 姓名,age 年龄,nation 民族 from stuinfo where age &gt; 1000;<br>查询年龄大于1000的同学姓名，并且把重复信息合并<br>SELECT DISTINCT name 姓名 from stuinfo where age &gt; 1000;<br>查询所有人的学号和姓名,只显示第50页的数据，每页5条<br>SELECT stuno,name from stuinfo LIMIT 0,5;<br>查询所有学员信息，按照年龄升序排序<br>SELECT * from stuinfo order by age asc;<br>查询名字是两个字，按照年龄降序排列<br>SELECT * from stuinfo WHERE name LIKE ‘__’ order by age DESC;<br>按照民族进行排序<br>SELECT * from stuinfo order by nation DESC;</p>
 
       
 
@@ -254,7 +254,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/10/17/增删改/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/10/17/增删改查/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -268,18 +268,9 @@
   
 <nav id="article-nav">
   
-    <a href="/2019/10/17/增删改查/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          增删改查
-        
-      </div>
-    </a>
   
-  
-    <a href="/2019/10/15/数据库/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">数据库</div>
+    <a href="/2019/10/17/增删改/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">增删改</div>
       <i class="icon-circle-right"></i>
     </a>
   
