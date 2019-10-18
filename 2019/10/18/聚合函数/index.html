@@ -6,19 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>查数据 | Hexo</title>
+  <title>聚合函数 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="select * from stu(学生表) ;SELECT name,age FROM stu(学生表);SELECT name from stu(学生表) ;SELECT name ,addres FROM stu(学生表);SELECT * FROM stu_score(成绩表) ;SELECT SUBJECT,score FROM stu_score(成绩表); ****333333333">
+  <meta name="description" content="sum函数 求和 1select sum(name) from table; //和值的显示min/max函数 最小值/最小值 1 select min(name) from table; //最小值的显示2 select max(name) from table; //最大值的显示avg函数 平均值 1select avg(name) from table; //平均值的显示count函数 统计">
 <meta property="og:type" content="article">
-<meta property="og:title" content="查数据">
-<meta property="og:url" content="http://yoursite.com/2019/10/17/查数据/index.html">
+<meta property="og:title" content="聚合函数">
+<meta property="og:url" content="http://yoursite.com/2019/10/18/聚合函数/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="select * from stu(学生表) ;SELECT name,age FROM stu(学生表);SELECT name from stu(学生表) ;SELECT name ,addres FROM stu(学生表);SELECT * FROM stu_score(成绩表) ;SELECT SUBJECT,score FROM stu_score(成绩表); ****333333333">
+<meta property="og:description" content="sum函数 求和 1select sum(name) from table; //和值的显示min/max函数 最小值/最小值 1 select min(name) from table; //最小值的显示2 select max(name) from table; //最大值的显示avg函数 平均值 1select avg(name) from table; //平均值的显示count函数 统计">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-10-17T14:11:00.975Z">
+<meta property="og:updated_time" content="2019-10-18T01:10:27.391Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="查数据">
-<meta name="twitter:description" content="select * from stu(学生表) ;SELECT name,age FROM stu(学生表);SELECT name from stu(学生表) ;SELECT name ,addres FROM stu(学生表);SELECT * FROM stu_score(成绩表) ;SELECT SUBJECT,score FROM stu_score(成绩表); ****333333333">
+<meta name="twitter:title" content="聚合函数">
+<meta name="twitter:description" content="sum函数 求和 1select sum(name) from table; //和值的显示min/max函数 最小值/最小值 1 select min(name) from table; //最小值的显示2 select max(name) from table; //最大值的显示avg函数 平均值 1select avg(name) from table; //平均值的显示count函数 统计">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -154,33 +154,37 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-查数据" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="w-聚合函数" class="article article-type-w " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      查数据
+      聚合函数
     </h1>
   
 
         
-        <a href="/2019/10/17/查数据/" class="archive-article-date">
-  	<time datetime="2019-10-17T14:10:19.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-10-17</time>
+        <a href="/2019/10/18/聚合函数/" class="archive-article-date">
+  	<time datetime="2019-10-18T01:09:31.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-10-18</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>select * from <code>stu(学生表)</code> ;<br>SELECT name,age FROM <code>stu(学生表)</code>;<br>SELECT name from <code>stu(学生表)</code> ;<br>SELECT name ,addres FROM <code>stu(学生表)</code>;<br>SELECT * FROM <code>stu_score(成绩表)</code> ;<br>SELECT SUBJECT,score FROM <code>stu_score(成绩表)</code>;</p>
-<p><strong><strong><strong>****</strong></strong></strong>3333333333333333<strong><strong><strong><strong><strong><strong>****</strong></strong></strong></strong></strong></strong></p>
-<p>SELECT stu_id,score FROM <code>stu_score(成绩表)</code>WHERE stu_id&gt;3;<br>SELECT * FROM <code>stu(学生表)</code>WHERE age&gt;23;<br>SELECT name ,addres,age,id FROM <code>stu(学生表)</code>WHERE id&gt;5;<br>SELECT * FROM <code>stu(学生表)</code> WHERE addres!=’上海’;</p>
-<p><strong><strong><strong><strong><strong>**</strong></strong></strong></strong></strong>44444444444444<strong><strong><strong><strong><strong><strong>**</strong></strong></strong></strong></strong></strong></p>
-<p>SELECT * FROM <code>stu(学生表)</code>where age in(22,24);<br>SELECT * FROM <code>stu(学生表)</code> WHERE addres!=’上海’and addres!=’深圳’;<br>SELECT * FROM <code>stu(学生表)</code>where addres not in(‘北京’,’上海’,’深圳’);<br>SELECT * FROM <code>stu(学生表)</code>WHERE age BETWEEN 22 and 26;<br>SELECT * FROM <code>stu(学生表)</code>WHERE birthday BETWEEN ‘1993-01-01’ and ‘1993-12-30’;<br>SELECT * FROM <code>stu(学生表)</code> WHERE birthday is null;<br>SELECT * FROM <code>stu(学生表)</code> WHERE birthday is not null;<br>SELECT * FROM <code>stu_score(成绩表)</code> WHERE score BETWEEN 60 and 80;<br>SELECT * FROM <code>stu_score(成绩表)</code> where score in(70,80,90);<br>SELECT * from <code>stu(学生表)</code> WHERE addres=’北京’and age&lt;22;</p>
-<p><strong><strong><strong><strong><strong>**</strong></strong></strong></strong></strong>555555555555<strong><strong><strong><strong><strong><strong>****</strong></strong></strong></strong></strong></strong></p>
-<p>SELECT * FROM <code>stu(学生表)</code>  ORDER BY age desc;<br>SELECT * FROM <code>stu_score(成绩表)</code> ORDER BY stu_id asc, score desc;<br>SELECT * FROM <code>stu(学生表)</code> LIMIT 3,4;<br>SELECT * FROM <code>stu(学生表)</code> LIMIT 3,15;<br>SELECT * FROM <code>stu(学生表)</code> LIMIT 4,6;</p>
+        <p>sum函数</p>
+<p>求和</p>
+<p>1<br>select sum(name) from table; //和值的显示<br>min/max函数</p>
+<p>最小值/最小值</p>
+<p>1 select min(name) from table; //最小值的显示<br>2 select max(name) from table; //最大值的显示<br>avg函数</p>
+<p>平均值</p>
+<p>1<br>select avg(name) from table; //平均值的显示<br>count函数</p>
+<p>统计总数（行数）</p>
+<p>1<br>2<br>3<br>select count(*) from table<br>or  //表内行数的统计<br>select count(1) from table<br>分组函数<br>group by</p>
+<p>对数据进行分组处理，搭配having来进行条件的判断（having只能搭配group使用，并且group by和having都必须在where语句之后）</p>
+<p>1<br>2<br>3<br>4<br>select count(1),age<br>from table<br>group by age<br>having age&gt;3;</p>
 
       
 
@@ -260,7 +264,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/10/17/查数据/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/10/18/聚合函数/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -274,18 +278,9 @@
   
 <nav id="article-nav">
   
-    <a href="/2019/10/18/聚合函数/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          聚合函数
-        
-      </div>
-    </a>
   
-  
-    <a href="/2019/10/17/增删改查/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">增删改查</div>
+    <a href="/2019/10/17/查数据/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">查数据</div>
       <i class="icon-circle-right"></i>
     </a>
   
